@@ -13,7 +13,7 @@ def get_students_string():
         if line.rstrip() == "q":
             break
         else:
-            students_string += f"{line}"
+            students_string += line
 
     return students_string
 
